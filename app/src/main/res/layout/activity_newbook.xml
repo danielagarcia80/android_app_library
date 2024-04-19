@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tittleselectbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newbook"
+        android:padding="24dp"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titlegenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectgenre"
+            android:padding="24dp"
+            android:textSize="21sp" />
+        <Spinner
+            android:id="@+id/spinnergenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+        <EditText
+
+            android:id="@+id/q_title"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="TITLE" />
+        <EditText
+
+            android:id="@+id/q_author"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="AUTHOR" />
+
+        <Button
+            android:id="@+id/Bcreatebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bnewbook"
+            android:layout_margin="4dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

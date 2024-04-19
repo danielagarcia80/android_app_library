@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle"
+        android:padding="24dp"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Bcreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createaccount"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/Bplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placehold"
+            android:layout_margin="4dp" />
+        <Button
+            android:id="@+id/Bmanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/managesystem"
+            android:layout_margin="4dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

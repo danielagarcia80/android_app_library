@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tittleselectbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittleselectbook"
+        android:padding="24dp"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerbook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+        <TextView
+            android:id="@+id/menssageselectbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="24dp"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/Bselectbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bselectbook"
+            android:layout_margin="4dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

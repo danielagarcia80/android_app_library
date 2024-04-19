@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">project2</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="placehold">PLACE HOLD</string>
+    <string name="managesystem">MANAGE SYSTEM</string>
+    <string name="tittle">CSUMB Library</string>
+    <string name="adduser">Create!</string>
+    <string name="tittleselectgenre">Select Genre</string>
+    <string name="Bselectgenre">Continue</string>
+    <string name="tittleselectbook">"Select Book "</string>
+    <string name="Bselectbook">Place  Hold</string>
+    <string name="oklog">OK</string>
+    <string name="newbook">New Book</string>
+    <string name="selectgenre">Select Genre</string>
+    <string name="Bnewbook">ADD</string>
+</resources>
